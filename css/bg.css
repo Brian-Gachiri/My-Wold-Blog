@@ -1,0 +1,26 @@
+body,html {
+  
+    background-image: url("../images/background3.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+  }
+
+  /* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, .3); /* Black w/opacity/see-through */
+    color:white;
+    font-weight: bold;
+    border: 0px solid #999393;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
